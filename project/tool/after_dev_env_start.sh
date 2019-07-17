@@ -1,4 +1,4 @@
 #!/bin/bash
 
-php /var/www/api_frame/public/cli.php migrate:install
-php /var/www/api_frame/public/cli.php migrate
+php /var/www/swoole_api_frame/public/cli.php migrate:install
+php /var/www/swoole_api_frame/public/cli.php migrate
