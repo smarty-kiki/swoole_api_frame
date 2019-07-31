@@ -6,8 +6,6 @@ header('Access-Control-Allow-Origin: *');
 include __DIR__.'/../bootstrap.php';
 include FRAME_DIR.'/http/swoole/application.php';
 
-config_preload();
-
 set_error_handler('http_err_action', E_ALL);
 set_exception_handler('http_ex_action');
 register_shutdown_function('http_fatel_err_action');

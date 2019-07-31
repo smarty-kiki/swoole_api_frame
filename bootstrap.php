@@ -17,6 +17,7 @@ include FRAME_DIR.'/unitofwork.php';
 include FRAME_DIR.'/log/file.php';
 
 config_dir(ROOT_DIR.'/config');
+config_preload();
 
 include ROOT_DIR.'/util/load.php';
 include DOMAIN_DIR.'/load.php';
