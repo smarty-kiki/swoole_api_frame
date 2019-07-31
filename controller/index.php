@@ -2,5 +2,6 @@
 
 if_get('/', function ()
 {
-    return 'hello world';
+    throw new Exception('waaaaaa');
+    return ip();
 });

@@ -30,7 +30,7 @@ return [
             // 'auth' => 'foobared',
 
             'options' => [
-                Redis::OPT_SERIALIZER => Redis::SERIALIZER_PHP,
+                //Redis::OPT_SERIALIZER => Redis::SERIALIZER_PHP,
             ],
         ],
     ]
