@@ -21,7 +21,6 @@ if_has_exception(function ($ex) {
 });
 
 if_verify(function ($action, $args) {
-
     return unit_of_work(function () use ($action, $args){
 
         $data = call_user_func_array($action, $args);
@@ -45,4 +44,5 @@ if_not_found(function () {
 // init controller
 include CONTROLLER_DIR.'/index.php';
 
+// start server
 http_server();
