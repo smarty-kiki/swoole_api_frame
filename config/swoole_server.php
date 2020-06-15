@@ -3,7 +3,7 @@
 return [
     'ip' => '127.0.0.1',
     'port' => 8080,
-    'set' => [
+    'http_server_options' => [
         'worker_num' => 4,
         'max_request' => 4,
         'dispatch_mode'=> 3,
